@@ -6,4 +6,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controller\**" />
+    <Compile Remove="Pages\assets\**" />
+    <Compile Remove="Pages\css\**" />
+    <Compile Remove="Pages\images\**" />
+    <Compile Remove="Pages\js\**" />
+    <Content Remove="Controller\**" />
+    <Content Remove="Pages\assets\**" />
+    <Content Remove="Pages\css\**" />
+    <Content Remove="Pages\images\**" />
+    <Content Remove="Pages\js\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <EmbeddedResource Remove="Pages\assets\**" />
+    <EmbeddedResource Remove="Pages\css\**" />
+    <EmbeddedResource Remove="Pages\images\**" />
+    <EmbeddedResource Remove="Pages\js\**" />
+    <None Remove="Controller\**" />
+    <None Remove="Pages\assets\**" />
+    <None Remove="Pages\css\**" />
+    <None Remove="Pages\images\**" />
+    <None Remove="Pages\js\**" />
+  </ItemGroup>
+
 </Project>
